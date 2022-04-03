@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/panton');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --background: #232733;
+    --typography: #fff;
+    --primary: #8165ff;
+    --form: rgb(230, 230, 230);
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 130%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: var(--background) !important;
+}
+
+body {
+    background-color: var(--background);
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-blend-mode: soft-light;
+    color: var(--typography);
+    font-family: 'Poppins', sans-serif;
+}
+
+#app {
+    padding: 2rem;
+    width: 100%;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+::selection {
+    background: #eee;
+    color: #1f1e1c;
+}
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 2em;
+    border: .36em var(--background) solid;
+}
+
+::-webkit-scrollbar-corner {
+    background: none;
+}
+
+.primary-button,.primary-button:hover{border:1px solid var(--primary)!important;color:#fff!important;transition:.4s ease!important}.primary-button:hover{background-color:var(--primary)!important}
+
+.d-button,
+.d-button:hover {
+    border: 1px solid var(--primary) !important;
+    color: #fff !important;
+    transition: .4s ease !important;
+    color: #8165ff !important;
+}
+
+.d-button:hover { 
+    background-color: var(--primary) !important;
+    color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .img-framework {
+        width: 100%;
+    }
+}
+
+nav {
+    margin-top: 1rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    border-radius: 10px;
+}
+
+.my-crd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

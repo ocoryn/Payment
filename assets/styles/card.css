@@ -1,0 +1,14 @@
+.card {
+    width: auto;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.card-body {
+    background-color: #282d3a;
+}
+
+.card-body p {
+    font-size: 100%;
+}
